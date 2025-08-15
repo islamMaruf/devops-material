@@ -1030,14 +1030,15 @@ graph LR
 
 ```mermaid
 graph LR
-    A[Disaster Occurs] --> B[Recovery Point<br/>Objective (RPO)]
-    A --> C[Recovery Time<br/>Objective (RTO)]
+    A[Disaster Occurs] --> B[Recovery Point<br/>Objective &#40;RPO&#41;]
+    A --> C[Recovery Time<br/>Objective &#40;RTO&#41;]
     
     B --> D[How much data<br/>loss is acceptable?]
     C --> E[How quickly must<br/>systems be restored?]
     
     D --> F[Backup Frequency]
     E --> G[Recovery Strategy]
+
 ```
 
 #### DR Strategies
