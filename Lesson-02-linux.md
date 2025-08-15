@@ -57,12 +57,12 @@ Linux powers **96% of the world's servers** and is the backbone of modern DevOps
 
 ```mermaid
 graph TD
-    A[AI/ML Layer<br/>Predictive Analytics | AIOps | Anomaly Detection] --> B[Observability<br/>Prometheus | Grafana | ELK Stack | Datadog | New Relic]
-    B --> C[Container Orchestration<br/>Kubernetes | Docker Swarm | OpenShift]
-    C --> D[CI/CD Pipelines<br/>Jenkins | GitLab CI | GitHub Actions | Azure DevOps]
-    D --> E[Infrastructure as Code<br/>Terraform | Ansible | Puppet | Chef | CloudFormation]
+    A[AI/ML Layer<br/>Predictive Analytics &#124; AIOps &#124; Anomaly Detection] --> B[Observability<br/>Prometheus &#124; Grafana &#124; ELK Stack &#124; Datadog &#124; New Relic]
+    B --> C[Container Orchestration<br/>Kubernetes &#124; Docker Swarm &#124; OpenShift]
+    C --> D[CI/CD Pipelines<br/>Jenkins &#124; GitLab CI &#124; GitHub Actions &#124; Azure DevOps]
+    D --> E[Infrastructure as Code<br/>Terraform &#124; Ansible &#124; Puppet &#124; Chef &#124; CloudFormation]
     E --> F[Operating System Layer<br/>LINUX Ubuntu/RHEL/CentOS/Alpine]
-    F --> G[Cloud Infrastructure<br/>AWS | Azure | GCP | Multi-Cloud Platforms]
+    F --> G[Cloud Infrastructure<br/>AWS &#124; Azure &#124; GCP &#124; Multi-Cloud Platforms]
     
     style A fill:#e1f5fe
     style B fill:#f3e5f5
@@ -71,6 +71,7 @@ graph TD
     style E fill:#fce4ec
     style F fill:#f1f8e9
     style G fill:#e3f2fd
+
 ```
 
 ### DevOps Workflow Architecture 
